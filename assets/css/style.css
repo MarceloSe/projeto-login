@@ -35,6 +35,9 @@ main{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+
+    transition: width .5s, heigth .5s;
+    transition-timing-function: ease;
 }
 
 #imagem{
